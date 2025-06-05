@@ -56,7 +56,7 @@ MULTI_FSUB = [int(channel_id) for channel_id in environ.get('MULTI_FSUB', '-1002
 # Payment Configuration
 # ============================
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/NOd.jpg')
-OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '@Keshavraj_77')
+OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '𓄿pata nahi hai bhai)
 
 # ============================
 # MongoDB Configuration
@@ -84,11 +84,11 @@ HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', '')  # How to open tutorial link fo
 # ============================
 # Link Shortener Configuration
 # ============================
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', '')
-SHORTLINK_API = environ.get('SHORTLINK_API', '')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'a54c628fd7b08c6bacde48f4f95cb82f312a1d53')
 TUTORIAL = environ.get('TUTORIAL', '')  # Tutorial video link for opening shortlink website
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 
 # ============================
 # Channel & Group Links Configuration
